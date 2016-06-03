@@ -1,9 +1,3 @@
-/* Author: Anders Brownworth @anders94
-
-  This code is copyrighted by Bandwidth.com. Use without writen permission is prohibited.
-  Contact me on Twitter @anders94
-
- */
 function init() {
     c2d.drawImage(background0, 0, 0), downloader = window.frames[0], uploader = window.frames[1], downloader.a(fileArray[fileId]), uploader.a(), setTimeout("loadImages( )", 1e3)
 }
@@ -82,7 +76,7 @@ var c, c2d, page = 0,
     step = 1,
     frame = 0,
     renderSpeed = 500,
-    interval, fileArray = new Array("/512k.txt", "/1M.txt", "/2M.txt", "/5M.txt", "/10M.txt", "/25M.txt"),
+    interval, fileArray = new Array("/speedtest/512k.txt", "/speedtest/1M.txt", "/speedtest/2M.txt", "/speedtest/5M.txt", "/speedtest/10M.txt", "/speedtest/25M.txt"),
     fileId = 3,
     uploadResult = 0,
     downloadResult = 0,
